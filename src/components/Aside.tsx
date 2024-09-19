@@ -14,9 +14,9 @@ const Aside = () => {
               Contacts
             </h2>
             <ul className="mb-[--ul-mb]">
-              <li className="mb-[--list-mb]">+38 (067) 362-69-38</li>
-              <li className="mb-[--list-mb]">torimeister@gmail.com</li>
-              <li className="mb-[--list-mb]">Telegram</li>
+              {/* <li className="mb-[--list-mb]">+38 (067) 362-69-38</li> */}
+              {/* <li className="mb-[--list-mb]">torimeister@gmail.com</li> */}
+              {/* <li className="mb-[--list-mb]">Telegram</li> */}
               <li className="mb-[--list-mb]">LinkedIn</li>
               <li className="mb-[--list-mb]">Github</li>
               <li className="mb-[--list-mb]">Irpin, Ukraine</li>
