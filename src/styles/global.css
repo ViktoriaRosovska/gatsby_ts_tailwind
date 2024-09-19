@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --h2-text-size: 20px;
+  --h2-mb: 10px;
+  --ul-mb: 16px;
+  --list-mb: 6px;
+  --h2-pb: 6px;
+}
+body {
+  font-size: 18px;
+}
