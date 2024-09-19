@@ -1,6 +1,7 @@
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
+  pathPrefix: "/gatsby_ts_tailwind",
   siteMetadata: {
     title: `gatsby_ts_tailwind`,
     siteUrl: `https://www.yourdomain.tld`,
