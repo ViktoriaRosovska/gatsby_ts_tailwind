@@ -24,21 +24,21 @@ const MainContent = () => {
               challenge in AI-tech stack as a frontend developer. Also I finished my team pet project in TeamChallenge
               platform for junior developers. This is a sport wear shop - website written in React, Redux, React Router,
               Styled Component. Link on my project&nbsp;
-              <Link
-                to="https://viktoriarosovska.github.io/online-store-front-pulse/"
+              <a
+                href="https://viktoriarosovska.github.io/online-store-front-pulse"
                 target="_blanc"
                 className="underline hover:text-[#3c8c26]"
               >
                 PulseRun
-              </Link>
-             &nbsp;and it repository on&nbsp;
-              <Link
-                to="https://github.com/ViktoriaRosovska/online-store-front-pulse"
+              </a>
+              &nbsp;and it repository on&nbsp;
+              <a
+                href="https://github.com/ViktoriaRosovska/online-store-front-pulse"
                 target="_blanc"
                 className="underline hover:text-[#3c8c26]"
               >
                 GitHub.
-              </Link>
+              </a>
             </p>
           </div>
         </li>
@@ -59,23 +59,25 @@ const MainContent = () => {
               Education
             </h2>
             <table className="table-auto w-full border-spacing-y-3">
-              <tr className="h-fit">
-                <td className="w-[250px]  align-[top] pb-[20px] pr-[20px]">PROMETHEUS</td>
-                <td className="w-[200px]  align-[top] pb-[20px] pr-[20px]">Frontend. Базовий курс від Ciklum</td>
-                <td className=" align-[top] pb-[20px]">03/2024 - 07/2024</td>
-              </tr>
-              <tr className="h-fit">
-                <td className="w-[250px] align-[top] pb-[20px] pr-[20px]">IT-school GoIT</td>
-                <td className="w-[200px]  align-[top] pb-[20px] pr-[20px]">Full-stack Developer</td>
-                <td className="align-[top] pb-[20px] ">12/2022 - 11/2023</td>
-              </tr>
-              <tr className="h-fit">
-                <td className="w-[250px] align-[top] pb-[20px] pr-[20px]">
-                  National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”
-                </td>
-                <td className="w-[200px] align-[top] pb-[20px] pr-[20px]">Master’s degree in “Computer science”</td>
-                <td className="align-[top] pb-[20px]">09/2003 - 02/2009</td>
-              </tr>
+              <tbody>
+                <tr className="h-fit">
+                  <td className="w-[250px]  align-[top] pb-[20px] pr-[20px]">PROMETHEUS</td>
+                  <td className="w-[200px]  align-[top] pb-[20px] pr-[20px]">Frontend. Базовий курс від Ciklum</td>
+                  <td className=" align-[top] pb-[20px]">03/2024 - 07/2024</td>
+                </tr>
+                <tr className="h-fit">
+                  <td className="w-[250px] align-[top] pb-[20px] pr-[20px]">IT-school GoIT</td>
+                  <td className="w-[200px]  align-[top] pb-[20px] pr-[20px]">Full-stack Developer</td>
+                  <td className="align-[top] pb-[20px] ">12/2022 - 11/2023</td>
+                </tr>
+                <tr className="h-fit">
+                  <td className="w-[250px] align-[top] pb-[20px] pr-[20px]">
+                    National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”
+                  </td>
+                  <td className="w-[200px] align-[top] pb-[20px] pr-[20px]">Master’s degree in “Computer science”</td>
+                  <td className="align-[top] pb-[20px]">09/2003 - 02/2009</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </li>

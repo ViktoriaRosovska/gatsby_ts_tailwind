@@ -3,6 +3,7 @@ import type { HeadFC, PageProps } from "gatsby";
 
 import MainContent from "../components/MainContent";
 import Aside from "../components/Aside";
+import { currentDate } from "../utils/currentDate";
 
 const pageStyles = {
   color: "#232129",
@@ -21,6 +22,7 @@ const links = [
 ];
 
 const IndexPage: React.FC<PageProps> = () => {
+  currentDate();
   return (
     <main className="mt-[80px] grid grid-cols-[1fr_2fr]  container mx-auto w-[1024px] border-1 border-[#1b2341] shadow-2xl">
       <Aside />

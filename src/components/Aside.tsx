@@ -1,6 +1,37 @@
 import * as React from "react";
 import Photo from "../images/photo.jpg";
 
+const hardSkillList = [
+  {
+    value: "HTML",
+    className: "mb-[--list-mb]",
+  },
+  {
+    value: "Javascript",
+    className: "mb-[--list-mb]",
+  },
+  {
+    value: "CSS, Styled Component, MUI, tailwind",
+    className: "mb-[--list-mb]",
+  },
+  {
+    value: "React.js, Redux",
+    className: "mb-[--list-mb]",
+  },
+  {
+    value: "Node.js, Express",
+    className: "mb-[--list-mb]",
+  },
+  {
+    value: "MongoDB, mongoose",
+    className: "mb-[--list-mb]",
+  },
+  {
+    value: "Trello, Git, Figma",
+    className: "mb-[--list-mb]",
+  },
+];
+
 const Aside = () => {
   return (
     <div className="bg-[#1b2341] text-[#fff] px-7 py-6 text-[14px]">
@@ -29,13 +60,13 @@ const Aside = () => {
               Hard Skills
             </h2>
             <ul className="list-disc list-inside mb-[--ul-mb]">
-              <li className="mb-[--list-mb]">HTML</li>
-              <li className="mb-[--list-mb]">Javascript</li>
-              <li className="mb-[--list-mb]">CSS, Styled Component, MUI, tailwind</li>
-              <li className="mb-[--list-mb]">React.js, Redux</li>
-              <li className="mb-[--list-mb]">Node.js, Express</li>
-              <li className="mb-[--list-mb]">MongoDB, mongoose</li>
-              <li className="mb-[--list-mb]">Trello, Git, Figma</li>
+              {hardSkillList.map((listItem) => {
+                return (
+                  <li key={listItem.value} className={listItem.className}>
+                    {listItem.value}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </li>
